@@ -1,0 +1,41 @@
+/* ------smartphones------*/
+
+@media only screen and (max-device-width: 767px) {
+.container { width: 100%; padding:0 20px; }
+	/*---simple grid---*/
+	.columns_1,
+	.columns_2,
+	.columns_3,
+	.columns_4,
+	.columns_5,
+	.columns_6,
+	.columns_7,
+	.columns_8,
+	.columns_9,
+	.columns_10,
+	.columns_11,
+	.columns_12 {width: 100%; margin-right: 0%; }
+
+	.columns_1:last-of-type,
+	.columns_2:last-of-type,
+	.columns_3:last-of-type,
+	.columns_4:last-of-type,
+	.columns_5:last-of-type,
+	.columns_6:last-of-type,
+	.columns_7:last-of-type,
+	.columns_8:last-of-type,
+	.columns_9:last-of-type,
+	.columns_10:last-of-type,
+	.columns_11:last-of-type,
+	.columns_12:last-of-type {
+		margin-right: auto;
+	}
+
+
+
+
+	
+	
+	nav {display: none; visibility: hidden;}
+
+}
