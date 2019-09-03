@@ -31,11 +31,106 @@
 		margin-right: auto;
 	}
 
-
-
-
-	
-	
+    
 	nav {display: none; visibility: hidden;}
+    
+    .text-overlay {
+        line-height: normal
+        
+    }
+    
+    .quote-box {
+	width: 100%;
+	color: #ffffff;
+	margin-left: 0px;
 
 }
+.quote {
+	width: 100%;
+	padding: 0px;
+	background-color: #262626;
+	position: relative;
+	margin: 0px;
+    padding: 40px;
+    font-size: .7em;
+    
+
+
+}
+    
+    .qoute-svg-l{
+	background: url(../images/quotes-l.svg) no-repeat;
+	position: absolute;
+	left: -60px;
+	top: 6px;
+    width: 30px
+
+}
+.qoute-svg-r{
+	background: url(../images/quotes-r.svg) no-repeat;
+	position: absolute;
+	left: 268px;
+	top: 140px;
+    width: 30px
+
+}
+    .creative{
+        font-size: 1m
+    }
+  
+    .timeline{display: none; visibility: hidden;}
+    
+    .discography{
+        text-align: center;
+        margin: 0px;
+
+    }
+    .discography p{margin-bottom: 35px;}
+    
+     .discography h3{
+	margin-bottom: 5px;
+         margin-top: 10px;
+}
+    .videos{
+	width: 100%;
+	padding-top: 100px;
+	float:left;
+text-align: center;	
+        
+    }
+    .para-2 {display: none; visibility: hidden;}
+    
+    .about {
+	height: 269px;
+	  background-size: cover; 
+        padding-bottom: 0px;
+       padding-top: 0px;
+	  background-position: center;
+	  float: left;
+}
+    .responsive-v {
+        width: 300px;
+        margin-bottom: 20px
+    }
+    .hero-responsive {
+      height: 266px;
+        width: 500px;
+   
+    }
+    .home  {
+	position:relative;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 0px;
+	background-size:cover no-repeat; 
+	background-position: center;
+	text-align: right;
+	color: #FFFFFF;
+	float: left;
+    }
+
+
+}
+
+
