@@ -3,8 +3,15 @@ header {
 	height: 100%;
   padding: 15px 0 8px 0;
   top: 15px;
-  z-index: 200; 
-	background-image:url("../images/nav.jpg") no-repeat; 
+  z-index: 200;
+}
+.hero-m-video {
+  width: 940px;
+  height: ;
+}
+.hero-mobile{
+   {display: none; visibility: hidden;}
+
 }
 .branding{
 	margin-top: 36px;
@@ -31,7 +38,7 @@ nav li{
   font-size: .8em;
   letter-spacing: .1em;
   text-transform: uppercase;
-  display: inline-block; 
+  display: inline-block;
   padding-left: 20px;
   cursor: pointer;
   color: #FFFFFF;
@@ -40,25 +47,25 @@ nav li{
 
 nav li a:link{
   color: #FFFFFF;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 nav li a:visited{
   color: #FFFFFF;
-  text-decoration: none; 
+  text-decoration: none;
 }
 nav li a:hover{
   color: #000000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 nav li a:active{
   color: #FFFFFF;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .header-items{
 	z-index: 7;
-	
+
 	}
 
 .text-overlay{
@@ -71,10 +78,9 @@ nav li a:active{
 	display:inline;
 	position:relative;
 	width: 100%;
-	margin-top: -400px;
-	margin-bottom: -20px;
+	margin-bottom: -400px;
 	height: 980px;
-	background-size:cover no-repeat; 
+	background-size:cover no-repeat;
 	background-position: center;
 	text-align: right;
 	color: #FFFFFF;
@@ -125,7 +131,7 @@ float: left;
 
 .quote {
 	width: 100%;
-	
+
 	padding: 100px 0px 100px 0px;
 	float: left;
 	background-color: #262626;
@@ -161,14 +167,14 @@ float: left;
 }
 .creative{
 	color: #6b9f6d;
-	
+
 }
 
 .about {
 	background: url(../images/about.jpg) no-repeat;
 	  width: 100%;
 	height: 539px;
-	  background-size: cover; 
+	  background-size: cover;
 	  background-position: center;
 	  float: left;
 
@@ -182,8 +188,6 @@ float: left;
 	background-color: #E8DCCA;
 	padding: 50px 40px 50px 0;
 }
-
-
 
 .history{
 	width: 100%;
@@ -216,7 +220,7 @@ float: left;
 	float:left;
 	padding-bottom: 100px;
 	background-size: cover;
-	
+
 
 }
 
@@ -461,12 +465,12 @@ float: left;
   width: 100%;
   float: left;
   padding: 100px 0;
-	
-	
+
+
 }
 
 .carousel {
-	
+
 }
 .price{
 	text-align: right;
@@ -489,5 +493,3 @@ counter-increment: gallery-cell;
 .headroom--pinned {
     transform: translateY(0%);
 }
-
-
