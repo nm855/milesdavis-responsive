@@ -31,14 +31,14 @@
 		margin-right: auto;
 	}
 
-    
+
 	nav {display: none; visibility: hidden;}
-    
+
     .text-overlay {
         line-height: normal
-        
+
     }
-    
+
     .quote-box {
 	width: 100%;
 	color: #ffffff;
@@ -53,11 +53,11 @@
 	margin: 0px;
     padding: 40px;
     font-size: .7em;
-    
+
 
 
 }
-    
+
     .qoute-svg-l{
 	background: url(../images/quotes-l.svg) no-repeat;
 	position: absolute;
@@ -77,16 +77,16 @@
     .creative{
         font-size: 1m
     }
-  
+
     .timeline{display: none; visibility: hidden;}
-    
+
     .discography{
         text-align: center;
         margin: 0px;
 
     }
     .discography p{margin-bottom: 35px;}
-    
+
      .discography h3{
 	margin-bottom: 5px;
          margin-top: 10px;
@@ -95,14 +95,14 @@
 	width: 100%;
 	padding-top: 100px;
 	float:left;
-text-align: center;	
-        
+text-align: center;
+
     }
     .para-2 {display: none; visibility: hidden;}
-    
+
     .about {
 	height: 269px;
-	  background-size: cover; 
+	  background-size: cover;
         padding-bottom: 0px;
        padding-top: 0px;
 	  background-position: center;
@@ -112,25 +112,22 @@ text-align: center;
         width: 300px;
         margin-bottom: 20px
     }
-    .hero-responsive {
-      height: 266px;
-        width: 500px;
-   
-    }
-    .home  {
-	position:relative;
-	width: 100%;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	height: 0px;
-	background-size:cover no-repeat; 
-	background-position: center;
-	text-align: right;
-	color: #FFFFFF;
-	float: left;
-    }
+		.qoute-svg-r {
+			left: 238px;
+			top: 180px;
+		}
 
+		.drop-down{display: none; visibility: hidden;}
+
+.hero-image-responsive {
+background: url(../images/hero-mobile.jpg);
+height:1146px;
+width:767px;
+display:inline;
+position:relative;
+
+width: 100%;
+float: left;
+	 }
 
 }
-
-
