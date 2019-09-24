@@ -140,7 +140,8 @@ filter: blur(1px);
 	position: absolute;
 	z-index: 4;
 	top: 550px;
-	left: 1px;}
+	left: 1px;
+	padding: 0 20px 0 20px;}
 
 .text-overlay-1{
 	text-align: center;
