@@ -65,15 +65,15 @@
 	position: absolute;
 	left: -52px;
 	top: 6px;
-    width: 30px
+    width: 30px;
 
 }
 .qoute-svg-r{
 	background: url(../images/quotes-r.svg) no-repeat;
 	position: absolute;
 	left: 268px;
-	top: 140px;
-    width: 30px
+	top: 120px;
+    width: 30px;
 
 }
     .creative{
@@ -196,7 +196,5 @@ text-align: center;}
 }
 .branding{
 	margin-top: 0px;
-	width: 0px;
-	height: 0px
-	float:none;
+
 }
