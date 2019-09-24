@@ -35,9 +35,11 @@
 	nav {display: none; visibility: hidden;}
 
     .text-overlay {
-        line-height: normal
+        line-height: normal;
+
 
     }
+
 
     .quote-box {
 	width: 100%;
@@ -61,7 +63,7 @@
     .qoute-svg-l{
 	background: url(../images/quotes-l.svg) no-repeat;
 	position: absolute;
-	left: -60px;
+	left: -52px;
 	top: 6px;
     width: 30px
 
@@ -121,13 +123,74 @@ text-align: center;
 
 .hero-image-responsive {
 background: url(../images/hero-mobile.jpg);
-height:1146px;
-width:767px;
-display:inline;
-position:relative;
+height:1000px;
+width:100%;
+display:inline-block;
+filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
 
-width: 100%;
-float: left;
-	 }
+.footer-distributed form input, .footer-distributed form textarea{
+	width: 240px;
+	text-align: center;
+}
+.text-overlay{
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 4;
+	top: 550px;
+	left: 1px;}
 
+.text-overlay-1{
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 4;
+	top: 720px;
+	left: 60px;}
+	'
+	.carousel{
+		width:100%;
+	}
+	.carousel-cell{
+		width: 100%;
+	}
+.store-h{
+text-align: center;}
+.event-h{
+text-align: center;}
+
+.annual {
+	margin-bottom: 15px;
+}
+
+.annual-p{
+	margin-bottom: 20px;
+}
+.sub {
+	text-align: center;
+}
+.social-icons{
+	text-align: center;
+	padding: 20px;
+}
+
+.footer-links{
+	text-align: center;
+}
+.M-center{
+	text-align: center;
+}
+
+.sub-c{
+	margin-top: 24px;
+	text-align: center;
+}
+
+.button{
+	text-align: center;
+}
+.info{
+  padding: 0 0px 0 25px;
 }
