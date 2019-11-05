@@ -32,6 +32,7 @@
 		 	<link rel="stylesheet" href="css/flickity.min.css">
 	      <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css" >
+	<script src="js/responsive-nav.js"></script>
 
 
 
@@ -39,52 +40,37 @@
 
 <body>
 
-  <section>
-<header  class="headroom headroom--pinned headroom headroom--unpinned">
+ 
+<header>
  <div class= "container">
-   <a href="http://adobe.com" class="branding">miles davis</a>
-   <nav>
-     <ul class="navigation">
-       <li><a data-scroll-nav="1" >Home</a>
-       </li>
-       <li><a data-scroll-nav="2" >About</a>
-       </li>
-       <li><a data-scroll-nav="3" >Timeline</a>
-       </li>
-       <li><a data-scroll-nav="4">Discography</a>
-       </li>
-       <li><a data-scroll-nav="5" >Videos</a>
-       </li>
-		 <li><a data-scroll-nav="6" >Events</a>
-       </li>
-		  <li><a data-scroll-nav="7" >Store</a>
-       </li>
-	   </ul>
+	 <div class="branding"><a href="http://adobe.com">miles davis</a></div>
+     <nav class="nav-collapse">
+   <ul>
+  <li class="menu-item"><a href="#home" data-scroll>Home</a></li>
+  <li class="menu-item"><a href="#about" data-scroll>About</a></li>
+  <li class="menu-item"><a href="#discography" data-scroll>Discography</a></li>
+  <li class="menu-item"><a href="#videos" data-scroll>Videos</a></li>
+  <li class="menu-item"><a href="#events" data-scroll>Events</a></li>
+  <li class="menu-item"><a href="#store" data-scroll>Store</a></li>
+ </ul>
    </nav>
   </div><!-- end container -->
 
-  <div class="container">
-<br><br><br><br><br>
-
-<h1 class="text-overlay">The Sorcerer of Jazz</h1>
-<h3 class="text-overlay-1">“Do not fear mistakes,<br>
-There are none.”</h3>
-</div>
 </header>
 
-</section> <!-- end untitled -->
-
-<section  data-scroll-index="1" class="home">
+<section class="hero" id="home">
   <div class="hero-image-responsive"></div>
-
-	  <div data-scroll-nav="2" class="drop-down"></div>
+	<div class="container">
+<div class="text-overlay"><h1>The Sorcerer of Jazz</h1></div>
+	</div>
+	  <div class="drop-down"></div>
 		  		  <div class="header-items">
             <div class="h-video">
-              <video playsinline autoplay muted loop poster="images/hero.jpg"  id="home" width="100%" height="100%">
+              <video playsinline autoplay muted loop poster="images/hero.jpg"  id="homie" width="100%" height="100%">
               <source src="mp4/hero.mp4" type="video/mp4">	</video></div>
   </div>
 
-    </div>
+    
           </section>
 <section class="quote">
 	<div class="container">
@@ -98,26 +84,26 @@ There are none.”</h3>
 		</div>
 		</div>
 	</section>
-<section  data-scroll-index="2" class="about">
+<section class="about" id="about">
   <div class="container">
 </div>
 </section>
 	<section class="copy">
 		<div class="container">
 		<div class="columns_2">
-  <p class="info">Miles Dewey Davis III (May 26, 1926 – September 28, 1991) was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music. Davis adopted a variety of musical directions in a five-decade career that kept him at the forefront of many major stylistic developments in jazz.</p><p>  <div class="para-2">Born and raised in Illinois, Davis left his studies at The Juilliard School in New York City and made his professional debut as a member of saxophonist Charlie Parker’s bebop quintet from 1944 to 1948. Shortly after, he recorded the Birth of the Cool sessions for Capitol Records, which were instrumental to the development of cool jazz. In the early 1950s, Davis recorded some of the earliest hard bop music while on Prestige Records but did so haphazardly due to a heroin addiction. After a widely acclaimed comeback </p>
+  <p class="info">Miles Dewey Davis III (May 26, 1926 – September 28, 1991) was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music. Davis adopted a variety of musical directions in a five-decade career that kept him at the forefront of many major stylistic developments in jazz.</p> <div class="para-2"> <p>Born and raised in Illinois, Davis left his studies at The Juilliard School in New York City and made his professional debut as a member of saxophonist Charlie Parker’s bebop quintet from 1944 to 1948. Shortly after, he recorded the Birth of the Cool sessions for Capitol Records, which were instrumental to the development of cool jazz. In the early 1950s, Davis recorded some of the earliest hard bop music while on Prestige Records but did so haphazardly due to a heroin addiction. After a widely acclaimed comeback </p></div>
 
 	    <div class="columns_2">
   <p>1950s, Davis recorded some of the earliest hard bop music while on Prestige Records but did so haphazardly due to a heroin addiction. After a widely acclaimed comeback performance at the Newport Jazz Festival in 1955, he signed a long-term contract with Columbia Records and recorded the 1957 album ‘Round About Midnight. It was his first work with saxophonist John Coltrane and bassist Paul Chambers, key members of the sextet he led into the early 1960s. During this period, he alternated between orchestral jazz collaborations with arranger Gil Evans, such as the Spanish-influenced Sketches of Spain (1960), and band recordings, such as Milestones (1958) and Kind of Blue (1959). The latter recording remains one of the most popular jazz albums of all time, having sold over four million copies in the U.S. </p></div>
 			</div>
             </div>
 	</section>
-<section data-scroll-index="3" class="timeline">
+<section class="timeline">
 	<div class="container">
 		<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1qnhG1VICp43ssD9RD-y5tZUHImCLNyeAiFqQxs2XlNE&font=Default&lang=en&initial_zoom=2&height=900" width="100%" height="900px" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
 	</div>
 	</section>
-	<section data-scroll-index="4" class="discography">
+	<section class="discography" id="discography">
 		<div class="container">
 			<h4>Discography</h4>
 		<div class="columns_3">
@@ -129,7 +115,7 @@ There are none.”</h3>
 <iframe src="https://open.spotify.com/embed/track/5MbJETEMJCs6T3EjT1RNBx"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>	<h3>The Final Tour</h3><p class="dis">Miles Davis & John Coltrane The Final Tour is a four compact disc live album compiling five sets from three locations of performances by the Miles Davis Quintet in Europe during late March 1960</p></div>
 		</div>
 	</section>
-  <section data-scroll-index="5" class="videos">
+  <section  class="videos" id="videos">
 	  <div class="container">
 		  <h4>Videos</h4>
 		 <div class="columns_2">
@@ -155,7 +141,7 @@ There are none.”</h3>
 		  </div>
 	  </div>
 		   </section>
-	<section data-scroll-index="6" class="events">
+	<section  class="events" id="events">
 		<div class="container">
 			<h4 class="event-h">Events</h4>
 			<div class="columns_2">
@@ -174,7 +160,7 @@ There are none.”</h3>
 
 
 	</section>
-	<section data-scroll-index="7" class="store">
+	<section  class="store" id="store">
 		<div class="container">
 			<h4 class="store-h">Store</h4>
 		<div class="carousel"data-flickity='{ "wrapAround": true }'>
@@ -195,7 +181,7 @@ There are none.”</h3>
 <footer class="footer-distributed">
 <div class="container">
 <div class="arrow bounce">
-	<div data-scroll-nav="1" class="fa fa-angle-up fa-4x"></div>
+	<div class="fa fa-angle-up fa-4x"></div>
 </div>
 	<div class="columns_2">
 
@@ -205,19 +191,19 @@ There are none.”</h3>
 				</div>
 <div class="columns_2">
 				<p class="footer-links">
-					<a data-scroll-nav="1">Home</a>
+					<a>Home</a>
 					·
-					<a data-scroll-nav="2">About</a>
+					<a>About</a>
 					·
-					<a data-scroll-nav="3">Timline</a>
+					<a>Timline</a>
 					·
-					<a data-scroll-nav="4">Discography</a>
+					<a>Discography</a>
 					·
-					<a data-scroll-nav="5">Videos</a>
+					<a>Videos</a>
 					·
-					<a data-scroll-nav="6">Events</a>
+					<a>Events</a>
 					·
-					<a data-scroll-nav="7">Store</a>
+					<a>Store</a>
 				</p>
 	</div>
 	</div>
@@ -261,12 +247,15 @@ There are none.”</h3>
 		<script>
   AOS.init();
 </script>
-	    <script  src="js/scrollIt.min.js"></script>
 	    <script  src="js/header-functions.js"></script>
 <script src="js/lity.js"></script>
 <script src="js/flickity.pkgd.min.js"></script>
-		<script src="js/headroom.min.js"></script>
 		<script src="js/header-functions.js"></script>
+		<script src="js/fastclick.js"></script>
+				<script src="js/scroll.js"></script>
+				<script src="js/fixed-responsive-nav.js"></script>
+
+
 
 
 

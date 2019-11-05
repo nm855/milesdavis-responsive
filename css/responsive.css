@@ -32,13 +32,19 @@
 	}
 
 
-	nav {display: none; visibility: hidden;}
-
-    .text-overlay {
-        line-height: normal;
 
 
-    }
+.hero-image-responsive {
+background: url(../images/hero-mobile.jpg);
+height:1000px;
+width:100%;
+visibility: visible;
+display: inline-block;
+	background-size: cover;
+
+
+}
+    
 
 
     .quote-box {
@@ -49,7 +55,6 @@
 }
 .quote {
 	width: 100%;
-	padding: 0px;
 	background-color: #262626;
 	position: relative;
 	margin: 0px;
@@ -76,9 +81,7 @@
     width: 30px;
 
 }
-    .creative{
-        font-size: 1m
-    }
+
 
     .timeline{display: none; visibility: hidden;}
 
@@ -121,39 +124,12 @@ text-align: center;
 
 		.drop-down{display: none; visibility: hidden;}
 
-.hero-image-responsive {
-background: url(../images/hero-mobile.jpg);
-height:1000px;
-width:100%;
-visibility: visible;
-display: inherit;
-
-filter: blur(1px);
-  -webkit-filter: blur(1px);
-
-}
 
 .footer-distributed form input, .footer-distributed form textarea{
 	width: 260px;
 	text-align: center;
 }
-.text-overlay{
-	text-align: center;
-	color: #FFFFFF;
-	position: absolute;
-	z-index: 4;
-	top: 200px;
-	left: 0px;
-	padding: 0 30px 0 20px;}
 
-.text-overlay-1{
-	text-align: center;
-	color: #FFFFFF;
-	position: absolute;
-	z-index: 4;
-	top: 450px;
-	left: 80px;}
-	'
 	.carousel{
 		width:100%;
 	}
@@ -195,11 +171,9 @@ text-align: center;}
 .button{
 	text-align: center;
 }
-.info{
-  padding: 0 0px 0 25px;
-}
-.branding{
-	margin-top: 0px;
 
+
+
+.h-video{display: none; visibility: hidden;
+	}
 }
-.h-video{display: none; visibility: hidden;}
