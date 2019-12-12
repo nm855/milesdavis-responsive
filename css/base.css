@@ -37,52 +37,70 @@ p {
 
 
 
+p {
+	font-family: 'noto sans', sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 100;
+	margin: 0 0 1.3em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px 0;
+	line-height: 1.2;
+	color: #ffffff;
+}
+
 h1 {
-	font-family:'bodoni-urw', serif;
-		font-weight: 500;
+     font-family: 'Markazi Text', serif;
 	margin-top: 0;
-	font-size: 3.8125em;
+	font-size: 55px;
+	line-height: 58px;
+	font-weight: 100;
+
 }
 h2 {
-font-family: 'neue-haas-unica', sans-serif;
-font-weight: 500;
-  	font-size: 3.4375em;
-	line-height: 1.1;
-	margin: 0;
-	
+	font-family: 'noto sans', sans-serif;
+	font-size: 40px;
+	line-height: 42px;
+	font-weight: 100;
+
 }
 h3 {
-	font-family: 'neue-haas-unica', sans-serif;
-	font-weight: 500;
-	line-height: 32px;
-	font-size: 1.5em;
-	margin:0; 
+	font-family: 'noto sans', sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 29px;
 }
 h4 {
-		font-family:'bodoni-urw', serif;
-	font-size: 2.5em;
+	font-family: 'noto sans', sans-serif;
+	font-size: 21px;
 	font-weight: 100;
-	margin-bottom: 50px;
-	
+	line-height: 24px;
+
+
 }
 h5 {
-	font-size: 1em;
-	font-weight: 900;
+	font-family: 'Markazi Text', serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 100;
 }
 h6 {
 	font-size: 1em;
-	font-weight: 900;
+	font-weight: 100;
 }
 
 
 
 .small-text {
-	font-size: 0.75em;
+	font-size: 12px;
+	line-height: 16px;
 }
 .large-text {
-	font-size: 1.2em;
+	font-size: 18px;
+	line-height: 22px;
 }
-
 /* -------- [ Site Links ] -------- */
 a:link {
 	color: #000000;
