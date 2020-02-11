@@ -46,7 +46,7 @@
 	 <div class="branding"><a href="http://adobe.com">miles davis</a></div>
      <nav class="nav-collapse">
    <ul>
-  <li class="menu-item"><a href="#home" data-scroll>Home</a></li>
+  <li class="menu-item"><a href="#home"  data-scroll>home</a></li>
   <li class="menu-item"><a href="#about" data-scroll>About</a></li>
   <li class="menu-item"><a href="#discography" data-scroll>Discography</a></li>
   <li class="menu-item"><a href="#videos" data-scroll>Videos</a></li>
@@ -61,9 +61,10 @@
 <section class="hero" id="home">
   <div class="hero-image-responsive"></div>
 	<div class="container">
+		<div class="hero-text">
 <div class="text-overlay"><h1>The Sorcerer of Jazz</h1></div>
 	</div>
-	  <div class="drop-down"></div>
+		</div>
 		  		  <div class="header-items">
             <div class="h-video">
               <video playsinline autoplay muted loop poster="images/hero.jpg"  id="homie" width="100%" height="100%">
@@ -105,7 +106,7 @@
 	</section>
 	<section class="discography" id="discography">
 		<div class="container">
-			<h4>Discography</h4>
+			<h2>Discography</h2>
 		<div class="columns_3">
 <iframe src="https://open.spotify.com/embed/track/6Qpke1nLtW5lciSvWy87KS"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> <h3>Birdland</h3><p class="dis">Birdland 1951 is a live album by American jazz musician Miles Davis, released in January 27, 2004, by Savoy Records and recorded from February 17, 1951, through September 29, 1951, in Birdland, from radio broadcasts.</p>
 		</div>
@@ -117,14 +118,17 @@
 	</section>
   <section  class="videos" id="videos">
 	  <div class="container">
-		  <h4>Videos</h4>
+		  <h2 class="videos-h-color">Videos</h2>
 		 <div class="columns_2">
 <a href="https://www.youtube.com/watch?v=FpZHjvFXprk" data-lity><img src="images/video-1.jpg" class="responsive-v"></a>
 
 		  </div>
           <div class="videos-responsive">
 		
-		   <div class="columns_2">
+		   <div class="columns_3">
+			 	 <a href="https://vimeo.com/69004111" data-lity><img src="images/video-3.jpg" class="responsive-v"></a>
+		  </div>
+			   <div class="columns_2">
 			 	 <a href="https://vimeo.com/69004111" data-lity><img src="images/video-3.jpg" class="responsive-v"></a>
 		  </div>
 		   <div class="columns_3">
@@ -141,7 +145,7 @@
 		   </section>
 	<section  class="events" id="events">
 		<div class="container">
-			<h4 class="event-h">Events</h4>
+			<h2 class="event-h">Events</h2>
 			<div class="columns_2">
 				<h3 class="annual">13th Annual Miles Davis<br>Jazzs Festival</h3>
 				<p class="annual-p">Enjoy an evening of jazz celebrating the music and life of one the true giants of jazz music - Miles Davis. There will be entertainment by Fred Walker, Tim Jarden, Bob and Me, and Big George. This event benefits the Alton Museum of History.</p>
@@ -160,7 +164,7 @@
 	</section>
 	<section  class="store" id="store">
 		<div class="container">
-			<h4 class="store-h">Store</h4>
+			<h2 class="store-h">Store</h2>
 		<div class="carousel"data-flickity='{ "wrapAround": true }'>
  <div class="carousel-cell"><img src="images/record-1.png" alt="record-1"><p class="music-head">The Final Tour: The Bootleg Series</p><p>the final chapter in the landmark collaboration between Davis and saxophonist John Coltrane: their last live performances together, in Europe in the spring of 1960.
 </p><p class="price">$30</p></div>
@@ -187,24 +191,25 @@
 
 				<h3 class="M-center">Miles Davis</h3>
 				</div>
-<div class="columns_2">
+		<div class="container">
+
+	<div class="columns_2">
 				<p class="footer-links">
-					<a>Home</a>
+					<a data-scroll="home" href="#home">Home</a>
 					·
-					<a>About</a>
+					<a data-scroll="about" href="#about">About</a>
 					·
-					<a>Timline</a>
+					<a data-scroll="discography" href="#discography">Discography</a>
 					·
-					<a>Discography</a>
+					<a data-scroll="videos" href="#videos">Videos</a>
 					·
-					<a>Videos</a>
+					<a data-scroll="events" href="#events">Events</a>
 					·
-					<a>Events</a>
-					·
-					<a>Store</a>
+					<a data-scroll="store" href="#store">Store</a>
 				</p>
 	</div>
 	</div>
+			</div>
 				<div class="container">
 					<div class="columns_2">
 						<ul class="social-icons">

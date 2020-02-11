@@ -30,12 +30,13 @@ text-indent: -9999em;
 	}
 
 .text-overlay{
-	top: 200px;
+	top: 300px;
 	text-align: center;
-	position: absolute;
+	position: relative;
 	color: #FFFFFF;
 	width: 60%;
 	line-height: 4em;
+	left: 0px;
 }
 
 .hero {
@@ -92,21 +93,28 @@ float: left;
 	background-color: #262626;
 	position: relative;
 	margin: 0;
+	text-align: center;
 
 
+}
+.hero-text{
+	position: inherit;
+	width: 100%;
+	margin: auto;
 }
 .quote-box {
 	width: 100%;
 	position: relative;
 	color: #ffffff;
-	margin-left: 120px;
+	margin-left: 0px;
+	text-align: center;
 
 }
 .qoute-svg-l{
 	background: url(../images/quotes-l.svg) no-repeat;
 	position: absolute;
 	width: 50px;
-	left: -60px;
+	left: 150px;
 	top: 6px;
 	height: 114px;
 	z-index: 2;
@@ -115,8 +123,8 @@ float: left;
 	background: url(../images/quotes-r.svg) no-repeat;
 	position: absolute;
 	width: 50px;
-	left: 520px;
-	top: 80px;
+	left: 730px;
+	top: 60px;
 	height: 114px;
 	z-index: 2;
 }
@@ -179,10 +187,19 @@ float: left;
 	background: url(../images/bg.jpg) no-repeat;
 	padding-top: 100px;
 	float:left;
+	color: #000000;
 	padding-bottom: 100px;
 	background-size: cover;
 
 
+}
+
+.videos-h-color{
+	color: #000000;
+}
+
+.store-h{
+	color: #000000;
 }
 
 .events{
@@ -484,6 +501,16 @@ width:100%;
 
 .nav-collapse.opened {
   max-height: 9999px;
+}
+
+.text-overlay{
+	top: 300px;
+	text-align: center;
+	position: absolute;
+	color: #FFFFFF;
+	width: 60%;
+	left: 50px;
+	line-height: 4em;
 }
 
 .disable-pointer-events {
