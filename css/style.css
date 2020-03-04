@@ -56,6 +56,7 @@ text-indent: -9999em;
 	width:100%;
 	height: 100%;
 	float:left;
+	color: #ffffff;
 	
 }
 
@@ -98,7 +99,7 @@ float: left;
 
 }
 .hero-text{
-	position: inherit;
+	position: relative;
 	width: 100%;
 	margin: auto;
 }
@@ -260,6 +261,12 @@ float: left;
 	display:inline-block;
 	text-decoration: none;
 	color:  inherit;
+	cursor: pointer;
+}
+.footer-distributed .footer-links a:hover{
+	display:inline-block;
+	text-decoration: none;
+	color:  #ffffff;
 	cursor: pointer;
 }
 
@@ -436,6 +443,7 @@ float: left;
 	text-transform:uppercase;
 	transition:  color 0.4s,;
 		 vertical-align: middle;
+	margin-top: 30px
 
 }
 
@@ -476,7 +484,11 @@ width:100%;
 /* ------------------------------------------
   RESPONSIVE NAV STYLES
 --------------------------------------------- */
-
+.hero-text{
+	position: inherit;
+	width: 100%;
+	margin: auto;
+}
 .nav-collapse ul {
   margin: 0;
   padding: 0;
@@ -504,12 +516,10 @@ width:100%;
 }
 
 .text-overlay{
-	top: 300px;
-	text-align: center;
-	position: absolute;
+	text-align: right;
 	color: #FFFFFF;
-	width: 60%;
-	left: 50px;
+	width: 100%;
+	left: 10px;
 	line-height: 4em;
 }
 
@@ -645,7 +655,11 @@ font-size: 0.8em;
 
 .nav-collapse a:active,
 .nav-collapse .active a {
-  color:#c2c2c2;
+  color:#ffffff;
+}
+.nav-collapse a:hover,
+.nav-collapse .hover a {
+  color:#000000;
 }
 
 @media screen and (min-width: 40em) {
