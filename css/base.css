@@ -60,21 +60,21 @@ h1 {
 
 }
 h2 {
-	font-family: 'noto sans', sans-serif;
-	font-size: 40px;
-	line-height: 42px;
-	font-weight: 100;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	line-height: 52px;
+	font-weight: 400;
 	margin-bottom: 40px;
 
 }
 h3 {
-	font-family: 'noto sans', sans-serif;
+	font-family: 'oswald', sans-serif;
 	font-size: 24px;
 	font-weight: 100;
 	line-height: 29px;
 }
 h4 {
-	font-family: 'noto sans', sans-serif;
+	font-family: 'oswald', sans-serif;
 	font-size: 21px;
 	font-weight: 100;
 	line-height: 24px;
